@@ -1,3 +1,5 @@
+BIG CHANGES
+
 # Exercise: Getting used to git
 
 This repository contains an example Java project. Your task is to use git tools to get your own copy on your development machine, make a change and then use git tools to update the version stored on the GitHUb server.
