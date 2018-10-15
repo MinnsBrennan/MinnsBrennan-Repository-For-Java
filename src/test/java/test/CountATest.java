@@ -1,12 +1,10 @@
 package test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
-
 import uk.ac.uos.i2p.SimpleMath;
 
-class countATest {
+class CountATest {
 
 	@Test
 	public void test() {
