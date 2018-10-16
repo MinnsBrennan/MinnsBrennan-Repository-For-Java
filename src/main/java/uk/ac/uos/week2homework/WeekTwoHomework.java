@@ -1,12 +1,12 @@
-package uk.ac.uos.i2p;
+package uk.ac.uos.week2homework;
 
 public class WeekTwoHomework {
 	
-	 public static void main(String[] args) {
-		 
+	 public static void main(String[] str) {
+	
 	 }
-
-	String camelCase(String str)
+	 
+	public String camelCase(String str)
 	{
 		StringBuilder builder = new StringBuilder(str);
 		boolean isLastSpace = true;
@@ -30,7 +30,7 @@ public class WeekTwoHomework {
 	}
 		
 	public String fullName(String foreName, String middleName, String surName) {
-		String letterFormat = foreName + " " + middleName + " " + surName;
+		String letterFormat = foreName + " " + middleName.charAt(0) + " " + surName;
 			
 		WeekTwoHomework converter = new WeekTwoHomework();
 			
