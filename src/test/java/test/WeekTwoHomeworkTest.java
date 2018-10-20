@@ -33,4 +33,13 @@ class WeekTwoHomeworkTest {
 		
 		assertEquals("Andrew M Stud", output);
 	}
+	
+	@Test
+	// Tests that middle name returns first letter capitalised
+	public void MiddleValid() {
+		WeekTwoHomework MiddleValid = new WeekTwoHomework();
+		String output = MiddleValid.fullName("Andrew", "Merlow", "Stud");
+		
+		assertEquals("Andrew M Stud", output);
+	}
 }

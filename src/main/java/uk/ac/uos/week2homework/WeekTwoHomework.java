@@ -3,7 +3,7 @@ package uk.ac.uos.week2homework;
 public class WeekTwoHomework {
 	
 	 public static void main(String[] str) {
-	
+		 
 	 }
 	 
 	public String camelCase(String str)
@@ -20,21 +20,16 @@ public class WeekTwoHomework {
 				builder.setCharAt(i, (char)(ch + ('A' - 'a') ));
 				isLastSpace = false;
 			}
-			else if (ch != ' ')
-				isLastSpace = false;
-			else
-				isLastSpace = true;
+			else isLastSpace = ch != ' ';
 		}
 	
 		return builder.toString();
 	}
 		
 	public String fullName(String foreName, String middleName, String surName) {
+		middleName = (middleName == null) ? "" : middleName;
 		String letterFormat = foreName + " " + middleName.charAt(0) + " " + surName;
 			
-		WeekTwoHomework converter = new WeekTwoHomework();
-			
-		String str = converter.camelCase(letterFormat);
-		return str;
+		return camelCase(letterFormat);
 	}
 }
