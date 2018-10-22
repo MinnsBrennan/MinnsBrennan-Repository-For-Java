@@ -1,8 +1,8 @@
-package uk.ac.uos.dice;
+package uk.ac.uos.week4;
 
 import java.util.*;
 
-public class Dice {
+public class DiceTask2 {
 	
 	 public static void main(String[] args) {
 		 int dice1[] = {1, 2, 3, 4, 5, 6};

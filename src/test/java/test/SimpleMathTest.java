@@ -2,7 +2,8 @@ package test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-import uk.ac.uos.i2p.SimpleMath;
+
+import uk.ac.uos.test.SimpleMath;
 
 class SimpleMathTest {
 

@@ -1,4 +1,4 @@
-package uk.ac.uos.week2homework;
+package uk.ac.uos.week2;
 
 public class WeekTwoHomework {
 	

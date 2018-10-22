@@ -3,7 +3,7 @@ package test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-import uk.ac.uos.week2homework.WeekTwoHomework;
+import uk.ac.uos.week2.WeekTwoHomework;
 
 class WeekTwoHomeworkTest {
 	

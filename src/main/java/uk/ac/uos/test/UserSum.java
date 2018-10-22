@@ -1,4 +1,4 @@
-package uk.ac.uos.i2p;
+package uk.ac.uos.test;
 
 import java.util.Scanner;
 

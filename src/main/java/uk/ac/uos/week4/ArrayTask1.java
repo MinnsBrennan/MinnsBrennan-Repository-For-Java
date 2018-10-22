@@ -1,6 +1,6 @@
-package uk.ac.uos.arrays;
+package uk.ac.uos.week4;
 
-public class Task1 {
+public class ArrayTask1 {
 	
 	 public static void main(String[] args) {
 		 int array[] = {17, 89, 27, 11, 91, 42, 73, 90, 5, 5};
