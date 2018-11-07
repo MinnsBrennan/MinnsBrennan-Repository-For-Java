@@ -18,7 +18,7 @@ public class TransposeMatricesTask4 {
 			}
 			System.out.println();
 		}
-		// print out the tranposed matrix
+		// print out the transposed matrix
 		System.out.println("Transposed Matrix:");
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
