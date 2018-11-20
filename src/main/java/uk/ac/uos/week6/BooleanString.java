@@ -1,12 +1,14 @@
 package uk.ac.uos.week6;
 
 public class BooleanString implements Describe {
-	private Boolean truth;
-	public BooleanString(Boolean truth) {
-		this.truth = truth;
+	private Boolean truefalse;
+
+	public BooleanString(Boolean truefalse) {
+		this.truefalse = truefalse;
 	}
+
 	@Override
 	public String describe() {
-		return Boolean.toString(truth);
+		return Boolean.toString(truefalse);
 	}
 }

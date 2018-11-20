@@ -1,12 +1,14 @@
 package uk.ac.uos.week6;
 
 public class NumberString implements Describe {
-	private Double number;
-	public NumberString(Double number) {
+	private Integer number;
+
+	public NumberString(Integer number) {
 		this.number = number;
 	}
+
 	@Override
 	public String describe() {
-		return Double.toString(number);
+		return Integer.toString(number);
 	}
 }
